@@ -1,0 +1,48 @@
+#category-screen {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-btn:hover {
+    background-color: #218838;
+}
+#options button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#options button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#options button:active {
+    background-color: #2e7031; /* Even darker green when clicked */
+}
+#score-screen .restart-btn{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

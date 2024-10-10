@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>Q: Which is fastest Bike in the world</h2>
+        <form id="quiz-form">
+            <label>
+                <input type="radio" name="answer" value="wrong1" id="answer"> Sujuki Hayabusa
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="correct" id="answer"> Dodge Tomehawk
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong2" id="answer"> Kayasaki Ninja H2r
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong3" id="answer">  Yamaha Racing Four Stroke R1
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong3" id="answer">  BMW 1000 RR
+            </label><br>
+            <button type="button" onclick="checkAnswer()">Submit</button>
+        </form>
+        <p id="result"></p>
+        <button type="button" id="next-exercise" onclick="gotoNextExercise()">Next Quiz</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

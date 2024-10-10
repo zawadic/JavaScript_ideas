@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>Q: Which is fastest car in the world</h2>
+        <form id="quiz-form">
+            <label>
+                <input type="radio" name="answer" value="wrong1" id="answer"> Bugatti Chiron Super Sport
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="correct" id="answer"> Koenigsegg Jesko Absolut
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong2" id="answer"> Bugatti Bolide
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong3" id="answer">  Lamborghini Aventador
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong3" id="answer">  Ferrari 812 Superfast
+            </label><br>
+            <button type="button" onclick="checkAnswer()">Submit</button>
+        </form>
+        <p id="result"></p>
+        <button type="button" id="next-exercise" class="hidden" onclick="goNextExercise()">Next Exercise</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>Q: Which is Poworful Fighter zet in the world</h2>
+        <form id="quiz-form">
+            <label>
+                <input type="radio" name="answer" value="wrong1" id="answer"> F-35
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="correct" id="answer"> B-21 Raider
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong2" id="answer"> Jendu J-20
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong3" id="answer">  Sukoi Su-57
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong3" id="answer">F-15 Eagle
+            </label><br>
+            <label>
+                <input type="radio" name="answer" value="wrong3" id="answer">Euro Fighter Tayphon
+            </label><br>
+            <button type="button" onclick="checkAnswer()">Submit</button>
+        </form>
+        <p id="result"></p>
+        <button type="button" id="next-exercise" onclick="gotoNextExercise()">Next Quiz</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
