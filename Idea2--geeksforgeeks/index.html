@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="code-container">
+        <div class="tabs">
+            <div class="tab active" onclick="showCode('cpp')">C++</div>
+            <div class="tab" onclick="showCode('java')">Java</div>
+            <div class="tab" onclick="showCode('python')">Python</div>
+            <div class="tab" onclick="showCode('csharp')">C#</div>
+            <div class="tab" onclick="showCode('javascript')">JavaScript</div>
+        </div>
+
+        <div class="code-actions">
+            <button onclick="editCode()">Edit <i class="fas fa-edit"></i></button>
+            <button onclick="copyCode()">Copy <i class="fa-solid fa-copy"></i></button>
+        </div>
+
+        <div id="cpp" class="code-content">
+            <textarea readonly>
+                // C++ code here...
+                // (Same as provided in your initial content)
+            </textarea>
+        </div>
+
+        <div id="java" class="code-content" style="display: none;">
+            <textarea readonly>
+                // Java code here...
+                // (Same as provided in your initial content)
+            </textarea>
+        </div>
+
+        <div id="python" class="code-content" style="display: none;">
+            <textarea readonly>
+                # Python code here...
+                # (Same as provided in your initial content)
+            </textarea>
+        </div>
+
+        <div id="csharp" class="code-content" style="display: none;">
+            <textarea readonly>
+                // C# code here...
+                // (Same as provided in your initial content)
+            </textarea>
+        </div>
+
+        <div id="javascript" class="code-content" style="display: none;">
+            <textarea readonly>
+                // JavaScript code here...
+                // (Same as provided in your initial content)
+            </textarea>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
