@@ -7,7 +7,7 @@ This repository is a collection of **JavaScript experiments, mini-projects, and 
 ## 📑 What's Inside?
 
 - **Idea 1:** A simple JS concept demonstrating how closures work.
-- **Idea 2:** Practical example from **GeeksforGeeks** illustrating event bubbling and capturing.
+- **Idea 2:** Practical code editor example from **GeeksforGeeks** .
 - **Idea 3:** An experiment with local storage to build a minimal **to-do app**.
 - **Idea 4:** Async/await example with an API call to display random jokes.
 
